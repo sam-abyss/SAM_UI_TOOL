@@ -1,3 +1,3 @@
-[submodule "SAM_UI_TOOL/segment-anything"]
-	path = SAM_UI_TOOL/segment-anything
+[submodule "SAM_UI_TOOL/segment_anything"]
+	path = SAM_UI_TOOL/segment_anything
 	url = git@github.com:facebookresearch/segment-anything.git
