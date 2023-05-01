@@ -17,7 +17,6 @@ setup(
         "opencv_contrib_python",
         "opencv-python",
         "Pillow",
-        "pycocotools",
         "segment_anything",
         "torch",
         "torchvision",
