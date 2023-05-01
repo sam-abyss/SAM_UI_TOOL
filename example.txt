@@ -1,0 +1,2 @@
+/home/abc/Documents/image1.png
+/home/abc/Documents/image2.jpg
