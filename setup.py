@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "SAM-UI-TOOL=SAM_UI_TOOL.SAM-ui:main",
+            "SAM-UI-TOOL=SAM_UI_TOOL.SAM-ui.py:main",
         ]
     },
 )
