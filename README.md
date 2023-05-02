@@ -21,4 +21,4 @@ To run this script, you will need three things:
 
 Once you know the location of all these, you can run the script below replacing the placeholders with the locations
 
-`SAM-ui.py  --input text/file/location --output-dir mask/directory --model-path model/checkpoint/location`
+`SAM_UI_TOOL  --input text/file/location --output-dir mask/directory --model-path model/checkpoint/location`
