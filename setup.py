@@ -21,5 +21,9 @@ setup(
         "torch",
         "torchvision",
     ],
-    scripts=["SAM_UI_TOOL/SAM-ui.py"],
+    entry_points={
+        "console_scripts": [
+            "SAM_UI_TOOL=SAM_UI_TOOL.SAM_ui:main",
+        ]
+    },
 )

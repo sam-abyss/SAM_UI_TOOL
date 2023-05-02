@@ -250,7 +250,8 @@ def get_args():
     return parser.parse_args()
 
 
-def main(args) -> None:
+def main() -> None:
+    args = get_args()
     root = tkinter.Tk()
     with open(args.input_images, "r") as file:
         images = [line.rstrip() for line in file]
@@ -260,4 +261,4 @@ def main(args) -> None:
 
 
 if __name__ == "__main__":
-    main(get_args())
+    main()
