@@ -250,7 +250,7 @@ def get_args():
     return parser.parse_args()
 
 
-def main(args) -> None:
+def main() -> None:
     args = get_args()
     root = tkinter.Tk()
     with open(args.input_images, "r") as file:
