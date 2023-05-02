@@ -251,6 +251,7 @@ def get_args():
 
 
 def main(args) -> None:
+    args = get_args()
     root = tkinter.Tk()
     with open(args.input_images, "r") as file:
         images = [line.rstrip() for line in file]
@@ -260,4 +261,4 @@ def main(args) -> None:
 
 
 if __name__ == "__main__":
-    main(get_args())
+    main()
