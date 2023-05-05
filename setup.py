@@ -21,5 +21,5 @@ setup(
         "torch",
         "torchvision",
     ],
-    scripts=["SAM_UI_TOOL/SAM-ui.py"],
+    scripts=["SAM_UI_TOOL/SAM_ui.py"],
 )
